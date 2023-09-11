@@ -22,7 +22,7 @@ main {
     height: 100vh;
 }
 
-#celular {
+#celular { 
     position: absolute;
     top: 50%;
     left: 50%;
@@ -31,4 +31,31 @@ main {
     height: 627px;
     width: 311px;
     background: url(../imagens/frame-iphone.png) no-repeat;
+}
+
+#tela {
+    position: relative;
+    top: 82px;
+    left: 24px;
+    height: 466px;
+    width: 263px;
+}
+
+#redes {
+    text-align: right;
+}
+
+#redes img {
+    height: 50px;
+    margin: 5px;
+    border-radius: 50%;
+    box-shadow: 4px 3px 3px #00000099;
+    box-sizing: border-box;
+}
+
+#redes img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.666);
+    transform: translate(-3px, -3px);
+    box-shadow: 8px 6px 6px #0000009d;
+    transition: transform 0.2s, border 0.4s;
 }
